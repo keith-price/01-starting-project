@@ -15,7 +15,7 @@ export default function App() {
   }
 
   return (
-    <div>
+    <>
       <Header />
       <main>
         <section id="core-concepts">
@@ -67,6 +67,6 @@ export default function App() {
         </section>
         <h2>Time to get started!</h2>
       </main>
-    </div>
+    </>
   );
 }
